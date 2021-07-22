@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS techfeed_db;
+
+CREATE DATABASE techfeed_db;
