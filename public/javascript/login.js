@@ -15,7 +15,7 @@ async function loginFormHandler(event) {
       });
   
       if (response.ok) {
-        document.location.replace('/navbar/');
+        document.location.replace('/navigation/');
       } else {
         alert(response.statusText);
       }
