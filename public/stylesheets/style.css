@@ -3,7 +3,8 @@
   }
   
   body, html {
-    background-color: black;  
+    background-color: black;
+      
     height: 100%;
     padding: 0;
     margin: 0;
@@ -89,6 +90,7 @@
   }
   
   main {
+    background-image: url(./img/tech.jpg);
     flex: 1;
     padding: 2% 4%;
   }
