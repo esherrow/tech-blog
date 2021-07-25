@@ -6,6 +6,10 @@
       <label for="post-title">Title</label>
       <input type="text" id="post-title" name="post-title" />
     </div>
+    <div>
+      <label for="post-body">Content</label>
+      <input type="text" id="post-body" name="post-body" />
+    </div>
     <button type="submit" class="btn">Create</button>
   </form>
 </section>
@@ -15,10 +19,10 @@
   <h2>Your Posts</h2>
   <ol>
     {{#each posts as |post|}}
-    <li>
+    <ol>
       {{> post-info post}}
       <a href="/navigation/edit/{{post.id}}" class="edit-link">Edit post</a>
-    </li>
+    </ol>
     {{/each}}
   </ol>
 </section>
